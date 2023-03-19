@@ -18,7 +18,7 @@ git fetch <custom-remote-name> # fetched but not yet accessible
 # * [new branch]   <default-branch>   -> <custom-remote-name>/<default-branch>
 
 # to merge the new remote - assuming that it has an unrelated history to the original remote
-git merge <custom-remote-name> --allow-unrelated-histories
+git merge <custom-remote-name>/<default-branch> --allow-unrelated-histories
 ```
 
 There may be conflicts that need to be managed before a merge can take place. The easiest way to deal with these is in VSCode. Clicking on the files with conflicts will lead to options to accept or resolve in the Merge Editor.

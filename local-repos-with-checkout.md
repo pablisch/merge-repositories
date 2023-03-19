@@ -1,4 +1,4 @@
-# Merge Repos Using Local Repo Remotes
+# Checkout Local Repo Remotes before Merging
 
 ## Includes checkout to view repos in terminal before merge
 

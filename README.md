@@ -1,8 +1,8 @@
 # Merge different repos that have no related history
 
-[main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) is the base instructions for merging repos but all its content is also copied below these options.
+If you prefer a more narrative, less GitHubish approach, there is a [blog post](https://medium.com/p/68280a7bcee5) version with this repo.
 
-There is a [blog post](https://medium.com/p/68280a7bcee5/edit) associated with this repo which you may view if you wish.
+[main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) is the base instructions for merging repos but all its content is also copied below these options.
 
 [merge-using-github-remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge-using-github-remotes.md) includes the small difference from [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) that it uses GitHub remotes rather than local ones.
 * If you have your repositories on your local machine and you are able to specify their filepaths, use [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md). 

@@ -2,13 +2,13 @@
 
 ## Includes checkout to view repos in terminal before merge
 
-This is a more complex option to the [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) version which includes checking out to a new remote branch to view files. As a git novice, I recommend comparing folders and files in Finder or VSCode rather than using this method.
+This is a more complex option to the [merge_using_local_remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge_using_local_remotes.md) version which includes checking out to a new remote branch to view files. As a git novice, I recommend comparing folders and files in Finder or VSCode rather than using this method.
 
 For the following instructions, all repos are local. There is no issues if they are also remote on GitHub but must be cloned locally for these particular instructions to work. If you want to merge GitHub remotes rather than local, use [these instructions](https://github.com/pablisch/merge-repositories/blob/main/merge-using-github-remotes.md).
 
 The following assumes https as cloning commmand. SSH may work too but I have not tested that.
 
-NOTE: I have always merged repositories as shown in [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md). Those instruction were adapted from these but I have not tested these myself, nor recommend them.
+NOTE: I have always merged repositories as shown in [merge_using_local_remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge_using_local_remotes.md). Those instruction were adapted from these but I have not tested these myself, nor recommend them.
 
 ```bash
 git remote -v # will show remotes, fetch and push (optional step)

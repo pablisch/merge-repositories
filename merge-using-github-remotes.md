@@ -2,7 +2,7 @@
 
 Basic merge of two repos. If you want to merge more than two, choose the primary destination repo and keep merging the others one at a time.
 
-The following instructions are for using GitHub remotes but the primary repo that others are bing merged into must still be local. Clone the primary repo locally if it is not already local. If you wish to use local remotes instead, follow [these instructions](https://github.com/pablisch/merge-repositories/blob/main/main.md). Neither is any harder or easier than the other.
+The following instructions are for using GitHub remotes but the primary repo that others are bing merged into must still be local. Clone the primary repo locally if it is not already local. If you wish to use local remotes instead, follow [these instructions](https://github.com/pablisch/merge-repositories/blob/main/merge_using_local_remotes.md). Neither is any harder or easier than the other.
 
 NOTE: the only difference in using local remotes is the target when adding the new remote.
 

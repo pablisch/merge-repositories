@@ -6,14 +6,14 @@
 
 ![Source control panel in VSCode](/images/2.source_control.png "Source control panel in VSCode")
 
-![](/images/ "")
+![DStore stage changes](/images/3.dsstore.png "DStore stage changes")
 
-![](/images/ "")
+![Conflict resolution](/images/4.conflict.png "Conflict resolution")
 
-![](/images/ "")
+![Accept options](/images/5.accept_options.png "Accept options")
 
-![](/images/ "")
+![](/images/6.merge_editor_compare.png "")
 
-![](/images/ "")
+![](/images/7.merge_editor_result.png "")
 
-![](/images/ "")
+![](/images/8.commit.png "")

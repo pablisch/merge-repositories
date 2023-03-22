@@ -1,6 +1,6 @@
 # Merge different repos that have no related history
 
-If you prefer a more narrative, less GitHub approach, there is a [blog post](https://medium.com/p/68280a7bcee5 "Blog post version of this GitHub repository... kind of) version with this repo.
+If you prefer a more narrative, less GitHub approach, there is a [blog post](https://medium.com/p/68280a7bcee5 "Blog post version of this GitHub repository... kind of") version with this repo.
 
 [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) is the base instructions for merging repos but yo can also see all its content copied below, 'Merge Repos Using Local Repo Remotes'.
 

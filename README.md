@@ -1,12 +1,13 @@
 # Merge different repos that have no related history
 
-If you prefer a more narrative, less GitHubish approach, there is a [blog post](https://medium.com/p/68280a7bcee5) version with this repo.
+If you prefer a more narrative, less GitHub approach, there is a [blog post](https://medium.com/p/68280a7bcee5) version with this repo.
 
-[main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) is the base instructions for merging repos but all its content is also copied below these options.
+[main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) is the base instructions for merging repos but yo can also see all its content copied below, 'Merge Repos Using Local Repo Remotes'.
 
 [merge-using-github-remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge-using-github-remotes.md) includes the small difference from [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md) that it uses GitHub remotes rather than local ones.
-* If you have your repositories on your local machine and you are able to specify their filepaths, use [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md). 
-* If you prefer to work with the GitHub remote repositories or simply find it easier to find their cloning addresses than local filepaths then use [merge-using-github-remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge-using-github-remotes.md).
+
+- If you have your repositories on your local machine and you are able to specify their filepaths, use [main.md](https://github.com/pablisch/merge-repositories/blob/main/main.md).
+- If you prefer to work with the GitHub remote repositories or simply find it easier to find their cloning addresses than local filepaths then use [merge-using-github-remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge-using-github-remotes.md).
 
 [local-repos-with-checkout](https://github.com/pablisch/merge-repositories/blob/main/local-repos-with-checkout.md) adds checkout onto a new branch of the remote and merge that instead. Please note that these were the oiginal instructions that I came across but I have not tested them myself.
 

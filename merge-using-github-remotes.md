@@ -20,6 +20,19 @@ git fetch <custom-remote-name> # fetched but not yet accessible
 # to merge the new remote - assuming that it has an unrelated history to the original remote
 git merge <custom-remote-name>/<default-branch> --allow-unrelated-histories
 ```
+Example:
+```bash
+git remote -v # will show remotes, fetch and push (optional step)
+git remote add rev2 https://github.com/pablisch/review2.git # this is the same as the HTTPS cloning code
+git remote -v # should now show additional remotes, fetch and push (optional step)
+
+git fetch rev2 # fetched but not yet accessible
+# This will return infomation you will need for the merge, e.g.
+# * [new branch]   <default-branch>   -> <custom-remote-name>/<default-branch>
+
+# to merge the new remote - assuming that it has an unrelated history to the original remote
+git merge rev2/main --allow-unrelated-histories
+```
 
 There may be conflicts that need to be managed before a merge can take place. The easiest way to deal with these is in VSCode. Clicking on the files with conflicts will lead to options to accept or resolve in the Merge Editor.
 

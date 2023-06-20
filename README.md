@@ -1,6 +1,17 @@
-# Merge different repos that have no related history
+# Merge repositories
 
-If you prefer a more narrative, less GitHub approach, there is a [blog post](https://medium.com/p/68280a7bcee5 "Blog post version of this GitHub repository... kind of") version with this repo.
+This repo is simply a collection of markdown file instructions for merging repositories that I made for my own reference. I have made them public in case they are useful to anyone else.
+
+There is also a [blog post](https://medium.com/p/68280a7bcee5 "Blog post version of this GitHub repository... kind of") version of this repo which is a little more narrative and less GitHub.
+
+There are two main scenarios for merging repositories:
+
+1. Merge different repos with no related history using GitHub remotes
+2. Merge different repos with no related history using local remotes
+
+There is also a third instruction set for merging repos with related history which is more thorough and uses checkout to view the files before merging.
+
+## Merge different repos with no related history using GitHub remotes
 
 [merge_using_local_remotes.md](https://github.com/pablisch/merge-repositories/blob/main/merge_using_local_remotes.md) is the base instructions for merging repos but yo can also see all its content copied below, 'Merge Repos Using Local Repo Remotes'.
 
@@ -11,7 +22,7 @@ If you prefer a more narrative, less GitHub approach, there is a [blog post](htt
 
 [local-repos-with-checkout](https://github.com/pablisch/merge-repositories/blob/main/local-repos-with-checkout.md) adds checkout onto a new branch of the remote and merge that instead. Please note that these were the oiginal instructions that I came across but I have not tested them myself.
 
-# Merge Repos Using Local Repo Remotes
+## Merge different repos with no related history using local remotes
 
 Basic merge of two repos. If you want to merge more than two, choose the primary destination repo and keep merging the others one at a time.
 
